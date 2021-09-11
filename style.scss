@@ -20,7 +20,7 @@ $text-color-h: #F4F4F3;
 
 body {
     width: 100%;
-    background: url(./img/backgrund.jpg);
+    background: url(./img/backgrund.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -529,7 +529,7 @@ footer p {
     }
 
     section.section-contact{
-        height: 50vh;
+        height: 80vh;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 50px;
     }

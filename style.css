@@ -13,7 +13,7 @@
 
 body {
   width: 100%;
-  background: url(./img/backgrund.jpg);
+  background: url(./img/backgrund.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -644,7 +644,7 @@ footer p {
     height: 70vh;
   }
   section.section-contact {
-    height: 50vh;
+    height: 80vh;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-column-gap: 50px;
