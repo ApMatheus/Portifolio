@@ -167,7 +167,7 @@ div.nav-list ul li a:hover {
 section.section-primary {
   width: 100%;
   height: 100vh;
-  background: url(./img/fundo-design.jpg);
+  background: url(./img/fundo-design.webp);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
