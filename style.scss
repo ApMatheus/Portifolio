@@ -3,8 +3,8 @@
 
 
 /*-----Variaveis em Sass*/
-$primary-color:#0655A0;
-$second-color: #114380;
+$color-navbar:#0655A0;
+$color-section: #043B6E;
 $text-color-p: #BACBD9;
 $text-color-h: #F4F4F3;
 
@@ -51,7 +51,7 @@ header {
     width: 100%;
     height: 15vh;
     padding: 0 40px;
-    background-color: $primary-color;
+    background-color: $color-navbar;
     position: fixed;
     z-index: 10;
     box-sizing: border-box;
@@ -73,11 +73,12 @@ div.nav-list ul {
     position: absolute;
     top: 15vh;
     right: 0;
-    width: 30vw;
+    width: 50vw;
     height: 85vh;
-    background-color: $primary-color;
     display: flex;
+    background: #0656a0e1;
     flex-direction: column;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     justify-content: space-evenly;
     transform: translateX(100%);
@@ -156,7 +157,7 @@ div.card-perfil {
     height: 120%;
     margin-top: 10vh;
     padding: 15px;
-    background-color: $primary-color;
+    background-color: $color-navbar;
     border-radius: 10px;
     display: grid;
     grid-row-gap: 10px;
@@ -187,7 +188,7 @@ section.section-about {
     height: auto;
     padding: 30px;
     box-sizing: border-box;
-    background: $second-color;
+    background: $color-section;
 }
 
 article.article-career {
@@ -249,12 +250,12 @@ section.section-service {
 
 section.section-service h2,
 section.section-service h3 {
-    color: $second-color;
+    color: $color-section;
 }
 
 article.card-service {
     width: 80%;
-    border: 1px solid $second-color;
+    border: 1px solid $color-section;
     border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
@@ -270,14 +271,14 @@ article.card-service img {
 }
 
 article.card-service p {
-    color: $primary-color;
+    color: $color-navbar;
     font: normal normal 300 18px/20px Montserrat;
 }
 
 section.section-slide {
     width: 100%;
     height: 100%;
-    background-color: $primary-color;
+    background-color: $color-section;
     padding: 30px;
     box-sizing: border-box;
     display: flex;
@@ -364,7 +365,7 @@ button.button {
     font: normal normal 600 18px/20px Montserrat;
     border-radius: 10px;
     background-color: $text-color-p;
-    color: $primary-color;
+    color: $color-navbar;
     border: 1px solid white;
 }
 
@@ -380,7 +381,7 @@ section.section-contact {
 }
 
 section.section-contact h2 {
-    color: $primary-color;
+    color: $color-navbar;
 }
 
 div.card-contact {
@@ -388,7 +389,7 @@ div.card-contact {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid $primary-color;
+    border: 1px solid $color-navbar;
     border-radius: 10px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.781);
@@ -403,13 +404,13 @@ div.card-contact img {
 
 div.card-contact p {
     font: normal normal 500 16px/ 16px Montserrat;
-    color: $second-color;
+    color: $color-section;
 }
 
 footer {
     width: 100%;
     height: 80px;
-    background: $primary-color;
+    background: $color-navbar;
     display: flex;
     align-items: center;
     text-align: center;
@@ -452,7 +453,7 @@ footer p {
         right: 0;
         width: 100%;
         height: 15vh;
-        background-color: $primary-color;
+        background-color: $color-navbar;
         display: flex;
         flex-direction: row;
         text-align: center;

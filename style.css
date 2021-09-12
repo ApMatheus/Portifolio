@@ -72,16 +72,18 @@ div.nav-list ul {
   position: absolute;
   top: 15vh;
   right: 0;
-  width: 30vw;
+  width: 50vw;
   height: 85vh;
-  background-color: #0655A0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: #0656a0e1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   text-align: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -222,7 +224,7 @@ section.section-about {
   padding: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #114380;
+  background: #043B6E;
 }
 
 article.article-career {
@@ -305,12 +307,12 @@ section.section-service {
 
 section.section-service h2,
 section.section-service h3 {
-  color: #114380;
+  color: #043B6E;
 }
 
 article.card-service {
   width: 80%;
-  border: 1px solid #114380;
+  border: 1px solid #043B6E;
   border-radius: 10px;
   padding: 20px;
   -webkit-box-sizing: border-box;
@@ -337,7 +339,7 @@ article.card-service p {
 section.section-slide {
   width: 100%;
   height: 100%;
-  background-color: #0655A0;
+  background-color: #043B6E;
   padding: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -507,7 +509,7 @@ div.card-contact img {
 
 div.card-contact p {
   font: normal normal 500 16px/ 16px Montserrat;
-  color: #114380;
+  color: #043B6E;
 }
 
 footer {
